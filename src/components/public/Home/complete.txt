@@ -1,0 +1,29 @@
+
+import React from 'react'
+import FirstSection from "./FirstSection"
+import SecondSection from "./SecondSection"
+import ThirdSection from "./ThirdSection"
+import FourthSection from "./FourthSection"
+
+const Home = () => {
+    return (
+        <div className='w-full flex-col flex justify-center'>
+            {/* Primera Seccion */}
+            <FirstSection />
+            <div className='flex justify-center'>
+                <div className='w-11/12 flex flex-col'>
+                    {/* Segunda Seccion */}
+                    <SecondSection />
+
+                    {/* Tercera Seccion */}
+                    <ThirdSection />
+
+                    {/* Cuarta Seccion */}
+                    <FourthSection />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Home
