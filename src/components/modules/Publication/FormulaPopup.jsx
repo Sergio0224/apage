@@ -171,7 +171,8 @@ const FormulaPopup = () => {
                     type="button"
                     key={num}
                     className="dark:bg-[#505050] dark:hover:bg-[#454545] dark:text-[#d1d1d1] bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
-                    onClick={() => handleFormulaChange(num.toString())}
+                    onClick={() => console.log(expression) 
+                      +handleFormulaChange(num.toString())}
                   >
                     {num}
                   </button>

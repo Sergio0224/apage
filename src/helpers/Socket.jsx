@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const socket = io('https://collabgebra-back-9c2l.onrender.com');
+const socket = io('http://localhost:3900');
 
 // http://localhost:3900
 // https://collabgebra-back-9c2l.onrender.com
